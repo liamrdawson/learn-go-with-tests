@@ -9,6 +9,10 @@ func Sum(arr []int) (sum int) {
 	return sum
 }
 
+var a = [3]int{1, 2, 3}
+
+var aCopy = a
+
 func SumAll(numbersToSum ...[]int) []int {
 
 	var sums []int
